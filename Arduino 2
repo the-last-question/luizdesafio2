@@ -1,1 +1,22 @@
+#include <SoftwareSerial.h>
+#include <LiquidCrystal.h>
+#include <string.h>
 
+LiquidCrystal lcd(2,3,4,5,11,12);
+String cm;
+
+void setup(){
+	lcd.begin(16,2);
+  	Serial.begin(9600);
+}
+
+void loop(){
+	if(Serial.available())
+  { 	
+    cm = Serial.readString();
+    Serial.flush();
+    lcd.print(cm);
+    delay(1500);
+    lcd.clear();
+   }
+}
