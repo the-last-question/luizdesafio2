@@ -99,19 +99,27 @@ O objetivo do desafio foi a construção de um sistema que utilize o sensor ultr
 \subsection{Construção do Sistema}
 
 Inicialmente,foi conectado os dois Arduinos UNO, ao sensor de distância ultrassônico de três portas (GND: aterramento; 5V: Fonte de alimentação; SIG: onde são recebidos e enviados os dados, e e ao display LCD 16x2. Além de serem conectados os LEDS vermelho, verde e amarelo, em suas respectivas portas no primeiro Arduino
+
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.4\textwidth]{imagem2.png}}
     \caption{Esquemático}
     \label{fig}
     \end{figure}
     
+\subsection{Comunicação Serial}
+A comunicação serial é basicamente quando um Arduino principal é conectado a um ou mais Arduínos secundários, e esses exercem funções que complemental o principal. Essa comunicação é feita através da conexão das portas TX e RX além da junção das portas de aterramento(GND) dos Arduino. As funções utilizadas na codificação são disponíveis ao se declarar a biblioteca Software.serial.h.
 
-
-    
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.4\textwidth]{txrx.png}}
+    \caption{Comunicação Serial}
+    \label{fig}
+    \end{figure}
 
 
 \section{Metodologia}
 O sistema foi realizado no software online, open source, "Tinkercad", onde foram dsiponibilizados todos os componentes necessários para a realização do sistema. Foi construído o sistema utilizando o conhecimento prévio da linguagem de programação C/C++, e de eletrônica básica no qual envolve sistemas embarcados.
+
+
 
 \section{Conclusão}
 
