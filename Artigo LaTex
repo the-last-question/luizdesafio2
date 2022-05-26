@@ -72,9 +72,15 @@ Arduino, Comunicação Serial, Display, Sensor Ultrassônico
 \end{IEEEkeywords}
 
 \section{Introdução}
-O sistema foi desenvolvido utilizando a plataforma tinkercad, onde foi utilizado o arduino. O arduino é uma placa eletrônica que é "open source", e pode ser utilizado tanto para projestos interativos como ser conectada a um computador. Esse microcontrolador oferece ferramentas adaptáveis além de ser um produto de baixo custo. 
-\section{Desenvolvimento}
+O sistema foi desenvolvido utilizando a plataforma tinkercad, onde foi utilizado o arduino. O arduino é uma placa eletrônica que é "open source", e pode ser utilizado tanto para projestos interativos como ser conectada a um computador. Esse microcontrolador oferece ferramentas adaptáveis além de ser um produto de baixo custo.
 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.4\textwidth]{imagem1.png}}
+    \caption{Arduino UNO R3}
+    \label{fig}
+    \end{figure}
+    
+\section{Desenvolvimento}
 
 \subsection{Componentes utilizados}
 \begin{itemize}
@@ -87,12 +93,25 @@ O sistema foi desenvolvido utilizando a plataforma tinkercad, onde foi utilizado
 \item Display LCD 16x2
 \item 1 Potenciômetro 250 K Ohms
 \end{itemize}
+\subsection{Objetivo}
+O objetivo do desafio foi a construção de um sistema que utilize o sensor ultrassônico, e envie esse valor da distância para aparecer no displat LCD 16x2.
 
-\subsection{Hardware}
+\subsection{Construção do Sistema}
 
-\subsection{Software}
+Inicialmente,foi conectado os dois Arduinos UNO, ao sensor de distância ultrassônico de três portas (GND: aterramento; 5V: Fonte de alimentação; SIG: onde são recebidos e enviados os dados, e e ao display LCD 16x2. Além de serem conectados os LEDS vermelho, verde e amarelo, em suas respectivas portas no primeiro Arduino
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.4\textwidth]{imagem2.png}}
+    \caption{Esquemático}
+    \label{fig}
+    \end{figure}
+    
+
+
+    
+
 
 \section{Metodologia}
+O sistema foi realizado no software online, open source, "Tinkercad", onde foram dsiponibilizados todos os componentes necessários para a realização do sistema. Foi construído o sistema utilizando o conhecimento prévio da linguagem de programação C/C++, e de eletrônica básica no qual envolve sistemas embarcados.
 
 \section{Conclusão}
 
@@ -104,29 +123,10 @@ below the figures; table heads should appear above the tables. Insert
 figures and tables after they are cited in the text. Use the abbreviation 
 ``Fig.~\ref{fig}'', even at the beginning of a sentence.
 
-\begin{table}[htbp]
-\caption{Table Type Styles}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-\textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
-\cline{2-4} 
-\textbf{Head} & \textbf{\textit{Table column subhead}}& \textbf{\textit{Subhead}}& \textbf{\textit{Subhead}} \\
-\hline
-copy& More table copy$^{\mathrm{a}}$& &  \\
-\hline
-\multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
-\end{tabular}
-\label{tab1}
-\end{center}
-\end{table}
 
-\begin{figure}[htbp]
-\centerline{
-    \includegraphics{images/fig1.png}
-    }
-\caption{Example of a figure caption.}
-\label{fig}
+
+\begin{figure}
+
 \end{figure}
 
 Figure Labels: Use 8 point Times New Roman for Figure labels. Use words 
