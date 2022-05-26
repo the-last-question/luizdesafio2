@@ -128,38 +128,18 @@ O sistema foi realizado no software online, open source, "Tinkercad", onde foram
 
 
 \section{Conclusão}
+No desafio proposto, foi possível observar a funcionalidade da comunicação entre dois arduinos, e como os dois possuem as funções que se completam e atendem a necessidade do sistema proposto, que consiste no envio de dados de um arduino para o outro, que foram conectados com o sensor e o display, respectivamente. Alem disso, é necessário salientar, que com os conhecimentos sobre comunicação serial, se abrem inúmeras outras possibilidades da criação de novos sistemas mais complexos e otimizados. 
 
 
-.
-
-
-
-\begin{figure}
-
-\end{figure}
-
-Figure Labels: Use 8 point Times New Roman for Figure labels. Use words 
-rather than symbols or abbreviations when writing Figure axis labels to 
-avoid confusing the reader. As an example, write the quantity 
-``Magnetization'', or ``Magnetization, M'', not just ``M''. If including 
-units in the label, present them within parentheses. Do not label axes only 
-with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization 
-\{A[m(1)]\}'', not just ``A/m''. Do not label axes with a ratio of 
-quantities and units. For example, write ``Temperature (K)'', not 
-``Temperature/K''.
 
 \section*{Refeerências}
 
-Ciriaco, Douglas. O que é Arduino?. Canal Tech, 2015. Disponível em: https://canaltech.com.br/hardware/o-que-e-arduino/. Acesso em 23/05/2022
+[1] Ciriaco, Douglas. O que é Arduino?. Canal Tech, 2015. Disponível em: https://canaltech.com.br/hardware/o-que-e-arduino/. Acesso em 23/05/2022
 
 %----------------------------------------------------------
 \bibliographystyle{IEEEtran}
 \bibliography{Bibliography}
 %CRITICAL: do not change the above two lines!!!
 %----------------------------------------------------------
-
-\vspace{12pt}
-\color{red}
-Course templates contain guidance text for composing and formatting Course papers. Please ensure that all template text is removed from your course paper prior to submission to the lecturer. Failure to remove the template text from your paper may result in your paper not being accepted.
 
 \end{document}
