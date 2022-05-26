@@ -96,12 +96,18 @@ O sistema foi desenvolvido utilizando a plataforma tinkercad, onde foi utilizado
 \subsection{Objetivo}
 O objetivo do desafio foi a construção de um sistema que utilize o sensor ultrassônico, e envie esse valor da distância para aparecer no displat LCD 16x2.
 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.2\textwidth]{sensor.png}}
+    \caption{Senso}
+    \label{fig}
+    \end{figure}
+
 \subsection{Construção do Sistema}
 
-Inicialmente,foi conectado os dois Arduinos UNO, ao sensor de distância ultrassônico de três portas (GND: aterramento; 5V: Fonte de alimentação; SIG: onde são recebidos e enviados os dados, e e ao display LCD 16x2. Além de serem conectados os LEDS vermelho, verde e amarelo, em suas respectivas portas no primeiro Arduino
+Inicialmente,foi conectado os dois Arduinos UNO, ao sensor de distância ultrassônico de três portas (GND: aterramento; 5V: Fonte de alimentação; SIG: onde são recebidos e enviados os dados, e e ao display LCD 16x2. Além de serem conectados os LEDS vermelho, verde e amarelo, em suas respectivas portas no primeiro Arduino.Foram também colocados resistores para controlar a passagem da corrente e um potenciômetro, afim de dividir a tensão pelo sistema. Os "if" e "else" definiram que  cor de LED acende de acordo com a distância definida. Foi feita a conversão de milisegundos para centímetros, e usada as funções serial. para enviar os valores do sensor para o display, e assim exibi-los no mesmo.
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.4\textwidth]{imagem2.png}}
+    \centerline{\includegraphics[width=0.3\textwidth]{imagem2.png}}
     \caption{Esquemático}
     \label{fig}
     \end{figure}
@@ -123,13 +129,8 @@ O sistema foi realizado no software online, open source, "Tinkercad", onde foram
 
 \section{Conclusão}
 
-\subsection{Figures and Tables}
-\paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
-bottom of columns. Avoid placing them in the middle of columns. Large 
-figures and tables may span across both columns. Figure captions should be 
-below the figures; table heads should appear above the tables. Insert 
-figures and tables after they are cited in the text. Use the abbreviation 
-``Fig.~\ref{fig}'', even at the beginning of a sentence.
+
+.
 
 
 
