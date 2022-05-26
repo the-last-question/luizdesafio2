@@ -76,19 +76,26 @@ O sistema foi desenvolvido utilizando a plataforma tinkercad, onde foi utilizado
 \section{Desenvolvimento}
 
 
-\subsection{Materiais utilizados}
+\subsection{Componentes utilizados}
 \begin{itemize}
-...
-
+\item 2 Arduino UNO
+\item 1 LED Vermelho
+\item 1 LED Verde
+\item 1 LED Amarelo
+\item 4 Resistores 220 Ohms
+\item Sensor de distância Ultrassônico
+\item Display LCD 16x2
+\item 1 Potenciômetro 250 K Ohms
 \end{itemize}
 
-\subsection{Construção do código}
-...
+\subsection{Hardware}
+
+\subsection{Software}
 
 \section{Metodologia}
-...
+
 \section{Conclusão}
-...
+
 \subsection{Figures and Tables}
 \paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
 bottom of columns. Avoid placing them in the middle of columns. Large 
